@@ -10,5 +10,10 @@ var numOfCharacters = theSonnet.length
 console.log("numOfCharacters", numOfCharacters)
 
 // Replace the first occurance of the string "winter" with "yuletide"
+var newSonnet = theSonnet.replace ("winter", "yuletide")
+console.log("new sonnet", newSonnet);
+
 // Replace all occurances of the string "the" with "a large"
+newSonnet
+
 // Set the content of the sonnet div with the new string
